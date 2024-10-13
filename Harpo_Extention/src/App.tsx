@@ -148,7 +148,7 @@ function App() {
           HARPO
           <span className="text-[0px]">read between the lines</span>
         </h1>
-        <h1 className="font-bold pt-28">Loading...</h1>;
+        <h1 className="font-bold pt-28">Loading...</h1>
       </>
     );
   }
