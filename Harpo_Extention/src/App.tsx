@@ -142,7 +142,15 @@ function App() {
   };
 
   if (loading) {
-    return <h1 className="font-bold">Loading...</h1>;
+    return (
+      <>
+        <h1 className="font-bold text-6xl font-abang fixed top-0 left-0 bg-[#242424]  py-6 w-full ">
+          HARPO
+          <span className="text-[0px]">read between the lines</span>
+        </h1>
+        <h1 className="font-bold pt-28">Loading...</h1>;
+      </>
+    );
   }
   if (!fetchData) {
     return (
